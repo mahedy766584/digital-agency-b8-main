@@ -234,7 +234,8 @@ nav .navbar-button button:hover > a{
     flex-wrap: wrap;
 }
 .service-icons-c{
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .service-icons-c img{
@@ -250,7 +251,8 @@ nav .navbar-button button:hover > a{
 }
 .img-p{
     width: 280px;
-    height: 200px;
+    height: 240px;
+    color: #000000;
 }
 
 
@@ -351,8 +353,58 @@ nav .navbar-button button:hover > a{
 }
 .news-heding{
     margin-bottom: 18px;
+    margin-top: 10px;
 }
 .news-description{
     font-size: 18px;
 
+}
+
+
+/* footer section style */
+footer{
+    background-image: url("../css/image/footer-bg.png"), linear-gradient(190deg, rgba(0,0,0,.90), rgba(0,0,0,5));
+    height: 50vh;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content-p{
+    display: flex;
+    
+}
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.content a{
+    margin-top: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+.content a:hover{
+    color: #6480ff;
+    transition: all ease-in .4s;
+}
+.content .footer-description{
+    width: 400px;
+    margin-top: 25px;
+}
+.footer-logo{
+    width: 130px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 15px;
+    color: #ceb7b7;
+}
+.social-icons a:not(:first-child){
+    margin-left: 10px;
 }
