@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section style */
+header{
+    background-color: gray;
+    height: 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin:  10px 15px;
+}
+nav ul > li:hover > a{
+    color: rgb(165, 0, 0);
+    transition: all ease-in .4s;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+ul li ul{
+    align-items: center;
+    list-style: none;
+    background-color: gray;
+    display: none;
+    position: absolute;
+}
+ul li ul li:not(:last-child){
+    border-bottom: 1px solid #fff;
+}
+nav > ul > li:hover >ul{
+    display: block;
+}
+
+/* navbar-c style */
+
+
+/* header login,sign up button style */
+.navbar li button, .spn{
+    border: none;
+    outline: none;
+    background-color: gray;
+    padding: 0 4px;
+    color: #fff;
+}
+nav .navbar-button button{
+    background-color: grey;
+    border: none;
+    outline: none;
+    padding: 4px 5px;
+    border-radius: 30px;
+    padding: 4px 5px;
+    color: rgb(20, 20, 20);
+}
+nav .navbar-button button:hover{
+    background-color: #fff;
+    transition: all ease-in .4s;
+}
+nav .navbar-button button:hover > a{
+    color: black;
+    transition: all ease-in .4s;
+}
+
+/* banner section style */
+.no-1{
+    background-image: url("../css/image/background.jpg"), linear-gradient(150deg, rgba(0,0,0,.65), rgba(0,0,0,.65));
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content{
+    width: 40%;
+    text-align: center;
+}
+.banner-content .welcome{
+    margin-bottom: 30px;
+    color: red;
+    letter-spacing: 2px;
+}
+.banner-content .title{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.banner-content .title .digital{
+    color: red;
+}
+.banner-content .description{
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.no-1 .btn{
+    border: none;
+    border: none;
+    background-color: red;
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.no-1 .btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.no-1 .btn:last-child{
+    background-color: #fff;
+}
+.no-1 .btn .now{
+    color: black;
+}
+.no-1 .btn:hover{
+    box-shadow: 2px 25px 30px rgba(0, 0, 0, .7);
+    transition: all ease-in .5s;
+}
+
+
+/* services section style */
+.services{
+    color: #fff;
+    background-image: url("../css/image/footer-bg.png"), linear-gradient(190deg, rgba(0,0,0, 6), rgba(0,0,0,.90));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.services-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.services-list{
+    display: flex;
+    flex-direction: column;
+}
+.btn-list{
+    width: 140px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #717171;
+    background-color: #fff;
+}
+.headding{
+    margin-top: 16px;
+    font-size: 2.05rem;
+    font-weight: 790;
+}
+.headding span{
+    color: rgb(168, 0, 0);
+}
+.services-list .headding-description{
+    width: 680px;
+    margin-top: 16px;
+    word-spacing: 2px;
+}
+.services-list .number{
+    margin-top: 16px;
+}
+.data{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+.director{
+    width: 90px;
+    border-radius: 45px;
+}
+.ceo{
+    margin-left: 8px;
+}
+.more{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+.more-hr{
+    width: 1px;
+    height: 150px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.more-btn{
+    width: 150px;
+    height: 45px;
+    margin-left: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.more-btn a{
+    text-decoration: none;
+    color: #717171;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+/* services icons */
+.service-icons-p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-icons-c{
+    display: flex;flex-direction: column;
+    align-items: center;
+}
+.service-icons-c img{
+    width: 100px;
+}
+.service-icons-c{
+    background-color: #fff;
+    box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.619);
+    padding: 40px 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 14px 14px;
+}
+.img-p{
+    width: 280px;
+    height: 200px;
+}
