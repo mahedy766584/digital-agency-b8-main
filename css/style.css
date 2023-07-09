@@ -143,7 +143,7 @@ nav .navbar-button button:hover > a{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    height: 115vh;
 }
 .services-2{
     display: flex;
@@ -156,7 +156,7 @@ nav .navbar-button button:hover > a{
 }
 .btn-list{
     width: 140px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 30px;
     border: none;
     outline: none;
@@ -172,7 +172,7 @@ nav .navbar-button button:hover > a{
     font-weight: 790;
 }
 .headding span{
-    color: rgb(168, 0, 0);
+    color: rgb(255, 24, 24);
 }
 .services-list .headding-description{
     width: 680px;
@@ -205,8 +205,8 @@ nav .navbar-button button:hover > a{
 }
 .more-hr{
     width: 1px;
-    height: 150px;
-    background-color: red;
+    height: 120px;
+    background-color: rgb(255, 0, 0);
     border: none;
     outline: none;
     border-radius: 30px;
@@ -221,7 +221,7 @@ nav .navbar-button button:hover > a{
 }
 .more-btn a{
     text-decoration: none;
-    color: #717171;
+    color: #ff1717;
     font-weight: 500;
     font-size: 14px;
 }
@@ -242,7 +242,7 @@ nav .navbar-button button:hover > a{
 }
 .service-icons-c{
     background-color: #fff;
-    box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.619);
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.619);
     padding: 40px 40px;
     text-align: center;
     border-radius: 10px;
@@ -251,4 +251,108 @@ nav .navbar-button button:hover > a{
 .img-p{
     width: 280px;
     height: 200px;
+}
+
+
+/* contact section style */
+.contact{
+    margin: auto 0 20% 15%;
+}
+.contact-p{
+    width: 80%;
+    height: 120px;
+    background-color: #ff1717;
+    margin-top: -60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.call{
+    display: flex;
+}
+.call .fa-phone-volume{
+    font-size: 50px;
+    color: #fff;
+}
+.phone-number{
+    width: 160px;
+    margin-left: 10px;
+    color: #fff;
+}
+.hr-contact{
+    height: 100px;
+}
+.contact-description{
+    width: 500px;
+    color: #fff;
+}
+.contact-button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+
+
+/* blog and news contents style */
+.blog-and-news{
+    margin-top: -150px;
+    align-items: center;
+}
+.blog-main-content{
+    
+}
+.blog-contents{
+    display: flex;
+    width: 90%;
+    margin: 0 6%;
+}
+.news-content .blog-img{
+    width: 380px;
+}
+.blog-hading{
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-hading .blog-title{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.blog-s{
+    color: #ff1717;
+}
+.blog-descripton{
+    width: 690px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.news-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 380px;
+    margin: 20px 20px;
+    height: 400px;
+    padding: 20px 16px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+}
+.news-heding{
+    margin-bottom: 18px;
+}
+.news-description{
+    font-size: 18px;
+
 }
